@@ -24,6 +24,9 @@ Or install it yourself as:
 KamiText::wrap(text, 折り返し文字数)
 
 のようにコールすると、いい感じにワードラップされた配列が返却されます。
+詳しくは
+http://qiita.com/zucay/items/b6b4704f9279fdcb3c00
+をごらんください。
 
 ## Contributing
 
