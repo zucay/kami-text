@@ -1,6 +1,6 @@
 require "kami_text/version"
 
-class KamiText
+module KamiText
   def self.wrap(text, width_len = 24)
     text.map do |line|
       line =~ /(.*[　○．]|.*[０-９]）|.*  )/
