@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'kami_text/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "kami_text"
+  spec.name          = "kami-text"
   spec.version       = KamiText::VERSION
-  spec.authors       = ["yukihico"]
-  spec.email         = ["yukihico@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.authors       = ["yuki kawarazuka"]
+  spec.email         = ["y.kawarazuka@gmail.com"]
+  spec.summary       = "Better word wrapping method for japanese text"
+  spec.description   = "Better word wrapping method for japanese kami-text a.k.a「ネ申テキスト」which highly-optimized for printing"
   spec.homepage      = ""
   spec.license       = "MIT"
 
