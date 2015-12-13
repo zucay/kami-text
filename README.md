@@ -1,6 +1,7 @@
 # KamiText
 
-TODO: Write a gem description
+スペースでレイアウトされたテキストを、
+幅狭い端末でも見やすくするためのワードラップメソッドです。
 
 ## Installation
 
@@ -16,15 +17,17 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install kami_text
+    $ gem install kami-text
 
 ## Usage
 
-TODO: Write usage instructions here
+KamiText::wrap(text, 折り返し文字数)
+
+のようにコールすると、いい感じにワードラップされた配列が返却されます。
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/kami_text/fork )
+1. Fork it ( https://github.com/[my-github-username]/kami-text/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
